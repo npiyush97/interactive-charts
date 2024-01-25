@@ -1,0 +1,30 @@
+.timeline{
+    position: absolute;
+    top:0%;
+    left: 51%;
+    right: auto;
+    margin: 4.3em auto -10em auto ;
+    z-index: 5;
+    height: 100%;
+
+    .heading{
+        text-align: center;
+        font-size: 0.6rem;
+    }
+
+    .timeline-bar{
+        gap: 3em;
+        background-color: white;
+        border-radius: 100px;
+
+        p{
+            font-size: 0.8rem;
+        }
+
+        .active{
+            color: white;
+            background-color: blue;
+            border-radius: 30px;
+        }
+    }
+}

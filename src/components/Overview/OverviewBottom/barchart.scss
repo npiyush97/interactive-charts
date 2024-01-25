@@ -1,0 +1,30 @@
+.custom-gap{
+    gap:3px;
+}
+
+.barchart{
+    margin-top: 13px;
+}
+
+.light-bars{
+    background-color: #DCDDF1;
+}
+.pink-bars{
+    background-color: #FB7192;
+}
+
+.bars{
+    width: 10px;
+}
+
+.bar-bottom-hr{
+    // background-color: black;
+    background-image: linear-gradient(to right, #F5A951 20%, #EF788F 20% ,#EF788F 45%, #8779EB 45%);
+    border: none;
+    margin-top: 2.7px;
+    height: 0.5em;
+    opacity: 1;
+
+    width: 98%;
+    // margin: 12 auto;
+}

@@ -1,0 +1,36 @@
+#salesfigure {
+    display: none;
+}
+
+.bottom-chart {
+    background-color: white;
+    height: 4em;
+    border-radius: 10px;
+    cursor: pointer;
+
+    filter: drop-shadow(25px 18px 12px rgba(58, 58, 58, 0.16));
+
+    .heading {
+        color: #8C8998;
+        font-family: sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-bottom: -0.3em !important;
+    }
+
+    .number {
+        color: #5B5774;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+}
+
+.bottom-bar-chart {
+    width: 90%;
+    overflow-x: scroll;
+    margin: 0.3em auto;
+}
+
+.bottom-bar-chart::-webkit-scrollbar {
+    display: none;
+}

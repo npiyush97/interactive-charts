@@ -1,0 +1,212 @@
+.salesfigure {
+    position: fixed !important;
+    bottom: 5em !important;
+    left: 12em !important;
+    height: 27em !important;
+    width: 55.4em !important;
+}
+
+.chart {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    .y-axis {
+        height: 100%;
+
+        gap: 2.5vw;
+        justify-content: flex-start;
+    }
+
+    .y-axis p,
+    .x-axis p {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 24px;
+        letter-spacing: 0.44px;
+
+        color: #383874;
+
+        opacity: 0.6;
+    }
+
+    .x-axis {
+        gap: 6%;
+        padding: 0 3rem ;
+    }
+
+
+    // css for bubbles
+
+    .blue-bubble p {
+        font-weight: 200;
+        font-size: small;
+        margin: -0.7em !important;
+    }
+
+    .blue-bubble {
+        background: #695dfb;
+        mix-blend-mode: multiply;
+        box-shadow: 0px 109px 80px rgba(131, 13, 225, 0.14),
+            0px 45 33.4px rgba(133, 12, 225, 0.1),
+            0px 24 17.8px rgba(131, 13, 225, 0.08),
+            0px 13 10px rgba(133, 12, 225, 0.07),
+            0px 7 5.3px rgba(131, 14, 225, 0.05),
+            0px 3 2.2px rgba(133, 12, 225, 0.03);
+
+        border-radius: 50%;
+        font-weight: 600;
+        font-size: 8px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .red-bubble {
+
+        background: #ff505d;
+        mix-blend-mode: multiply;
+        opacity: 0.8;
+        box-shadow: 0px 100px 80px rgba(255, 43, 43, 0.15),
+            0px 46.233px 36.9864px rgba(255, 43, 43, 0.111251),
+            0px 26.4535px 21.1628px rgba(255, 43, 43, 0.0940171),
+            0px 16.0571px 12.8457px rgba(255, 43, 43, 0.0809922),
+            0px 9.67509px 7.74008px rgba(255, 43, 43, 0.0690078),
+            0px 5.38772px 4.31018px rgba(255, 43, 43, 0.0559829),
+            0px 2.31722px 1.85378px rgba(255, 43, 43, 0.0387487);
+
+        border-radius: 50%;
+        font-weight: 600;
+        font-size: 8px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .yellow-bubble {
+
+        background: #fae634;
+        mix-blend-mode: multiply;
+
+        border-radius: 50%;
+        font-weight: 600;
+        font-size: 8px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    //css for extra circles
+    .purple-bubble {
+        background: #b55bdf;
+        mix-blend-mode: multiply;
+        box-shadow: 0px 109px 80px rgba(225, 13, 190, 0.14),
+            0px 45 33.4px rgba(133, 12, 225, 0.1),
+            0px 24 17.8px rgba(131, 13, 225, 0.08),
+            0px 13 10px rgba(133, 12, 225, 0.07),
+            0px 7 5.3px rgba(131, 14, 225, 0.05),
+            0px 3 2.2px rgba(133, 12, 225, 0.03);
+
+        border-radius: 50%;
+        font-weight: 600;
+        font-size: 8px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    // css for particular bubbles 
+    .big-blue {
+        position: absolute;
+        width: 26em;
+        height: 26em;
+        left: 30%;
+        top: 6%;
+    }
+
+    .red-center {
+
+        position: absolute;
+        width: 17.6em;
+        height: 17.6em;
+        left: 17%;
+        top: 31%;
+    }
+
+    .yellow-right {
+        position: absolute;
+        width: 15.2em;
+        height: 15.2em;
+        left: 74%;
+        top: 25%;
+    }
+
+    .yellow-center {
+        position: absolute;
+        width: 12em;
+        height: 12em;
+        left: 28%;
+        top: 48%;
+    }
+
+    .red-extra-1 {
+        position: absolute;
+        width: 9em;
+        height: 9em;
+        left: 86%;
+        top: 39%;
+    }
+
+    .yellow-extra-1 {
+        position: absolute;
+        width: 3em;
+        height: 3em;
+        left: 15%;
+        top: 26%;
+    }
+
+    .purple-extra-1 {
+        position: absolute;
+        width: 3.8em;
+        height: 3.8em;
+        left: 8%;
+        top: 56%;
+    }
+
+    .purple-extra-2 {
+        position: absolute;
+        width: 2em;
+        height: 2em;
+        left: 58%;
+        top: 66%;
+    }
+
+    .purple-extra-3 {
+        position: absolute;
+        width: 8.5em;
+        height: 8.5em;
+        left: 80%;
+        top: 12%;
+    }
+
+    .purple-extra-4 {
+        position: absolute;
+        width: 1.6em;
+        height: 1.6em;
+        left: 70%;
+        top: 25%;
+    }
+
+    .blue-extra-2 {
+        position: absolute;
+        width: 2em;
+        height: 2em;
+        left: 68%;
+        top: 36%;
+    }
+
+}
