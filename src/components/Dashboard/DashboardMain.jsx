@@ -1,7 +1,7 @@
 import React from 'react';
 import './DashboardMain.scss';
-import TimelineHandler from './DashboardMainOther/TimelineHandler';
-import BottomDetail from './DashboardMainOther/BottomDetail';
+import TimelineHandler from './DashboardUtils/TimelineHandler';
+import BottomDetail from './DashboardUtils/BottomDetail';
 
 function DashboardMain() {
   return (

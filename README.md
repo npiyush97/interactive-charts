@@ -27,6 +27,9 @@
 -    ```npm install```
 -    ```npm start```
 
+## Project Overview
+   [Here](./src/Readme.md) 
+
 ## Approach for Solving Problem:
 -    1. Understanding UI Layout
 -    2. Observing the details
