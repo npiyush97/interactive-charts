@@ -1,4 +1,4 @@
-# Title of The Project: Wasserstoff Front-end Assignment
+# Interactive charts
 
 ## Technologies Stack: 
 ### -   1. ReactJS 
